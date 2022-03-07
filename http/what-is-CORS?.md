@@ -10,5 +10,5 @@ Here are some examples of different origins:
 - https://example.com vs https://sub.example.com (different host)
 - https://example.com:3000 vs https://example.com:5000 (different port)
 
-As long as the scheme, host, and port match, they are the same origin. The path (everything following the origin) doesn't factor into the question of same origin.
-[Deep dive in CORS](https://ieftimov.com/posts/deep-dive-cors-history-how-it-works-best-practices/)
+As long as the scheme, host, and port match, they are the same origin. The path (everything following the origin) doesn't factor into the question of same origin.  
+More: [Deep dive in CORS](https://ieftimov.com/posts/deep-dive-cors-history-how-it-works-best-practices/)
