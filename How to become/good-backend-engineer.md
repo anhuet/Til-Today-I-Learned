@@ -22,7 +22,7 @@
 - Message queue, Pub/Sub
     - When to use PubSub messaging first queue.
 - Web Frameworks (API authoring)
-    - Express, Django, Node JS
+    - Express, Deno, Node JS, Golang
 - Message Formats (JSON, protobuf)
     - JSON & protobuf
 - Security
