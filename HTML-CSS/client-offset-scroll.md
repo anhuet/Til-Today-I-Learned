@@ -1,4 +1,4 @@
-### What is offsetHeight, clientHeight, scrollHeight?
+### What is diff of offsetHeight, clientHeight, scrollHeight?
 - <strong>scrollHeight </strong>: ENTIRE  content & padding (visible or not)  
 Height of all content + paddings, despite of height of the element.
 
