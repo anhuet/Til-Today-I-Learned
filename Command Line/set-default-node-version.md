@@ -2,4 +2,4 @@
 - Install specific node version using nvm  
 ``` nvm install <node-version> ```
 -  Make the installed version default  
-```nvm alias default 12.14.1```
+```nvm alias default <node-version>```
