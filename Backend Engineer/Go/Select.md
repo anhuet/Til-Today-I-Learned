@@ -35,3 +35,5 @@ server 1 write ouput 1 after 6s
 server 2 wirte output 2 after 3s
 so the select will block 3s and w print output 2
 ```
+### Practical use of select
+Assume we need return the output to the user as quickly as possible. The database for this app is replicated and stored in different server. <strong>server1 </strong> and <strong>server2 </strong> are communicating with 2 server. The response time of each server depend on the network. We send the request to both servers and wait on the correcsponsding channels for the response. The server which responds first is chosen by the select and the other response is ignored. This way we can send the same request to multiple servers and return the quickest response to the user 
