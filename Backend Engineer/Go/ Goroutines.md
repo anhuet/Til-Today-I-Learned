@@ -6,7 +6,7 @@ Goroutines are functions or methods that run concurrently with other functions o
 
 - Goroutines are extremely cheap ~ few kb in stack size
 - The Goroutines are multiplexed to a fewer number of OS threads. There might be only one thread in a program with thousands of Goroutines.
-- Goroutines communicate using channels. Channels by design prevent race conditions from happening when accessing shared memory using Goroutines.
+- Goroutines communicate using chan nels. Channels by design prevent race conditions from happening when accessing shared memory using Goroutines.
 
 ### Example
 
