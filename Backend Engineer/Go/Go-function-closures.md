@@ -1,7 +1,9 @@
 ### What is the closures
+
 A closure is a function that references variables outside of its scope which it is created It can access variables within that scope, even after the scope is destroyed.
 
-E.g: 
+E.g:
+
 ```
 package main
 
@@ -21,6 +23,6 @@ func main() {
 	for i := 0; i < 3; i++ {
 		fmt.Printf("%d ,", temp());
 	}
-} 
->> 1,2,3 
+}
+>> 1,2,3
 ```
