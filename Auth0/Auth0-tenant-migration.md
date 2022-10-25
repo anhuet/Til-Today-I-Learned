@@ -1,4 +1,4 @@
-## Auth0 tenant migration
+ ## Auth0 tenant migration
 
 To migrate Auht0 tenant settings from one to another, we have 2 tasks to do:
 
@@ -39,7 +39,7 @@ a0deploy export --config_file config.json --format yaml --output_folder <your re
 
 Import tenant settings
 
-Create other config file for the tenant will be updated, supposes it's named config2.json  
+Create other config file for the tenant will be updated, supposes it's named config2.json
 Run next comand:
 
 ```
