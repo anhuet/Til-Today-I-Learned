@@ -20,3 +20,17 @@ Transfer 10USD from bank account 1 to bank account 2
 <li>Provide isolation between programs that access the database concurrently</li>
 </ol>
 
+### How to run
+```
+BEGIN
+
+...
+COMMIT;
+```
+
+```
+BEGIN
+
+...
+ROLLBACK;
+```
